@@ -23,7 +23,9 @@ Sebelum mulai, dilakukan beberapa konfigurasi:
   - php-intl
   - libcurl (opsional)
 
-📸 Screenshot: (Konfigurasi PHP.ini)
+📸 Screenshot: 
+
+![Gambar](1 - screenshot/1.png)
 
 ---
 
