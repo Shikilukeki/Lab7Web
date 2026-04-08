@@ -69,7 +69,7 @@ http://localhost:8080
 
 ---
 
-🐞 Mengaktifkan Debugging
+### 🐞 Mengaktifkan Debugging
 
 Langkah:
 
@@ -87,7 +87,7 @@ Tujuan: agar error lebih jelas saat debugging
 
 ---
 
-📂 Struktur Direktori
+### 📂 Struktur Direktori
 
 Penjelasan singkat:
 
@@ -97,7 +97,8 @@ system/ → core CodeIgniter
 writable/ → file log, cache, dll
 
 ---
-🧠 Konsep MVC
+
+### 🧠 Konsep MVC
 ```
 Model → mengelola data
 View → tampilan (HTML, CSS)
@@ -110,7 +111,7 @@ User → Controller → Model → View
 
 ---
 
-🔀 Routing
+### 🔀 Routing
 
 File:
 ```
@@ -123,8 +124,10 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ```
 📸 Screenshot: ![Gambar](1%20-%20Screenshot/5.png)
+
 ---
-🎮 Membuat Controller
+
+### 🎮 Membuat Controller
 
 File:
 ```
@@ -155,8 +158,10 @@ class Page extends BaseController
 }
 ```
 📸 Screenshot: ![Gambar](1%20-%20Screenshot/6.png)
+
 ---
-🖼️ Membuat View
+
+### 🖼️ Membuat View
 
 File:
 ```
@@ -186,9 +191,10 @@ public function about()
 }
 ```
 📸 Screenshot: ![Gambar](1%20-%20Screenshot/7.png)
+
 ---
 
-🎨 Membuat Layout dengan CSS
+### 🎨 Membuat Layout dengan CSS
 
 Langkah:
 
@@ -218,6 +224,7 @@ About.php
 ```
 
 📸 Screenshot: ![Gambar](1%20-%20Screenshot/8.png)
+
 ---
 
 ### ⚠️ Kendala yang Dialami
@@ -232,13 +239,19 @@ CLI → :8080
 Error ERR_CONNECTION_REFUSED
 ```
 karena server belum dijalankan
+
 ---
+
 ### Solusi:
 
 -Memastikan file CSS di public
+
 -Menggunakan php spark serve
+
 -Mengecek base_url di config
+
 ---
+
 ### ✅ Kesimpulan
 
 Dari praktikum ini dapat disimpulkan:
