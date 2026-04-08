@@ -25,7 +25,7 @@ Sebelum mulai, dilakukan beberapa konfigurasi:
 
 📸 Screenshot: 
 
-![Gambar](1 - screenshot/1.png)
+![Gambar](1%20-%20Screenshot/1.png)
 
 ---
 
@@ -44,7 +44,7 @@ ci4
 ```
 http://localhost/lab11_ci/ci4/public/
 ```
-📸 Screenshot: (Halaman awal CI4)
+![Gambar](1%20-%20Screenshot/2.png)
 
 ---
 
@@ -65,7 +65,7 @@ Akses:
 ```
 http://localhost:8080
 ```
-📸 Screenshot: (CLI berjalan)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/3.png)
 
 ---
 
@@ -83,7 +83,7 @@ CI_ENVIRONMENT = development
 ```
 Tujuan: agar error lebih jelas saat debugging
 
-📸 Screenshot: (Error tampil detail)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/4.png)
 
 ---
 
@@ -122,7 +122,7 @@ $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ```
-📸 Screenshot: (Routes.php)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/5.png)
 ---
 🎮 Membuat Controller
 
@@ -154,7 +154,7 @@ class Page extends BaseController
     }
 }
 ```
-📸 Screenshot: (Halaman About tampil)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/6.png)
 ---
 🖼️ Membuat View
 
@@ -185,7 +185,7 @@ public function about()
     ]);
 }
 ```
-📸 Screenshot: (View tampil)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/7.png)
 ---
 
 🎨 Membuat Layout dengan CSS
@@ -217,7 +217,7 @@ About.php
 <?= $this->include('template/footer'); ?>
 ```
 
-📸 Screenshot: (Tampilan dengan CSS)
+📸 Screenshot: ![Gambar](1%20-%20Screenshot/8.png)
 ---
 
 ### ⚠️ Kendala yang Dialami
